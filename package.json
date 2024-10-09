@@ -1,0 +1,27 @@
+{
+  "name": "create-rmv-project",
+  "version": "1.0.0",
+  "description": "A CLI tool to set up a new web project how Ruby likes it.",
+  "main": "bin/cli.js",
+  "type": "module",
+  "bin": {
+    "create-rmv-project": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "kirbycms",
+    "tailwind",
+    "cli"
+  ],
+  "author": "Ruby Morgan Voigt",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "fs-extra": "^11.2.0",
+    "execa": "^6.0.0",
+    "simple-git": "^3.27.0"
+  }
+}
